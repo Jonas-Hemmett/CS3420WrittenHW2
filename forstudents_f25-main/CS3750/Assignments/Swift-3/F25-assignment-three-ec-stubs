@@ -1,0 +1,76 @@
+// CS 3750 Fall 2025
+// stubs and classes for Swift Assignment #3
+
+class Queue<Element> {
+    var items = [Element]()
+    func enqueue(_ newItem: Element) {
+        // implement this
+    }
+
+    func dequeue() -> Element? {
+        // implement this
+        // you should have a guard statement
+        return first
+    }
+} // Queue
+
+
+class PQueue<Element: Equatable>: Queue<Element> {
+    var priorities = [Int]()
+
+    func enqueue(_ newItem: Element, priority: Int) {
+        // implement this
+    }
+
+    override func dequeue() -> Element? {
+        // implement this
+    }
+
+    func changePriority(_ element: Element, newPriority: Int) {
+        // implement this
+    }
+} // PQueue
+
+func testQueue() {
+    var queue = Queue<String>()
+    queue.enqueue("now")
+    queue.enqueue("is")
+    queue.enqueue("the")
+    queue.enqueue("for")
+    queue.enqueue("all")
+    while let item = queue.dequeue() {
+        print(item)
+    }
+} // testQueue()
+
+
+func testPQueue() {
+    var pqueue = PQueue<String>()
+    pqueue.enqueue("the", priority: 5)
+    pqueue.enqueue("is", priority: 3)
+    pqueue.enqueue("now", priority: 1)
+    pqueue.enqueue("for", priority: 10)
+    pqueue.enqueue("time", priority: 9)
+    // following should print, in this order: now is the time for
+    while let item = pqueue.dequeue() {
+        print(item)
+    }
+
+    pqueue.enqueue("the", priority: 10)
+    pqueue.enqueue("is", priority: 15)
+    pqueue.enqueue("now", priority: 18)
+    pqueue.enqueue("for", priority: 2)
+    pqueue.enqueue("time", priority: 4)
+
+    pqueue.changePriority("now", newPriority: 1)
+    pqueue.changePriority("is", newPriority: 2)
+    pqueue.changePriority("blueberry", newPriority: 56)
+    pqueue.changePriority("the", newPriority: 3)
+    pqueue.changePriority("time", newPriority: 4)
+    pqueue.changePriority("for", newPriority: 5)
+
+    // following should print, in this order: now is the time for
+    while let item = pqueue.dequeue() {
+        print(item)
+    }
+} // testPQueue()

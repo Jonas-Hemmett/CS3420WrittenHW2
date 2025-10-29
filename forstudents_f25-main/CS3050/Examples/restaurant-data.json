@@ -1,0 +1,124 @@
+[
+  {
+    "uuid": "98dc8968-1a84-4a02-9c3e-2fa149b3742b",
+    "name": "Leunigs Bistro",
+    "city": "Burlington",
+    "address": "115 Church Street Burlington, VT 05401",
+    "style": "American",
+    "cost": 4,
+    "reservations": true,
+    "reviews": [
+      {
+        "text": "Great ambience",
+        "stars": 4,
+        "date": "15-May-2023"
+      },
+      {
+        "text": "Nice, but a bit pricey",
+        "stars": 3,
+        "date": "20-May-2023"
+      }
+    ]
+  },
+  {
+    "uuid": "f55e274e-2945-4ec0-a6fe-c2ff921d66dc",
+    "name": "El Cortijo",
+    "city": "Burlington",
+    "address": "189 Bank Street Burlington, VT 05401",
+    "style": "Mexican",
+    "cost": 2,
+    "reservations": false
+  },
+  {
+    "uuid": "de4272ed-e39e-431a-a06c-8f239e0f8ff8",
+    "name": "Henrys Diner",
+    "city": "Burlington",
+    "address": "155 Bank Street Burlington, VT 05401",
+    "style": "American",
+    "cost": 1
+  },
+  {
+    "uuid": "590b909f-a9a2-43a9-ba8f-04e6fb739fcd",
+    "name": "Mr Mikes Pizza",
+    "city": "Burlington",
+    "address": "206 Main Street Burlington, VT 05401",
+    "style": "Italian",
+    "cost": 1
+  },
+  {
+    "uuid": "c5fb6452-ad8c-4f2a-b169-bbe6245d021d",
+    "name": "Ali Babas Kabob Shop",
+    "city": "Burlington",
+    "address": "163 Church Street Burlington, VT 05401",
+    "style": "Middle Eastern",
+    "cost": 2
+  },
+  {
+    "uuid": "2343544f-902a-4446-ab9c-a336f3b324c9",
+    "name": "The Kitchen Counter and Cafe",
+    "city": "St. Johnsbury",
+    "address": "378 Railroad Street Saint Johnsbury, VT 05819",
+    "style": "American",
+    "cost": 2
+  },
+  {
+    "uuid": "c144db0a-6e0e-4325-889e-d9d37887b747",
+    "name": "Burlington Bay",
+    "city": "Burlington",
+    "address": "125 Battery Street Burlington, VT 05401",
+    "style": "American",
+    "cost": 2
+  },
+  {
+    "uuid": "d70bae70-dfc2-4782-a2b6-6e27ab3f70d7",
+    "name": "Hinesburgh Public House",
+    "city": "Hinesburg",
+    "address": "10516 Route 116 Hinesburg, VT, 05461",
+    "style": "American",
+    "cost": 3,
+    "reviews": [
+      {
+        "text": "Fun and affordable",
+        "stars": 4,
+        "date": "22-May-2023"
+      },
+      {
+        "text": "Great staff and service",
+        "stars": 4,
+        "date": "25-May-2023"
+      }
+    ]
+  },
+  {
+    "uuid": "6a55f1a1-64b7-420b-a7e8-b4f1d1d2dd4c",
+    "name": "Pascolo Ristorante",
+    "city": "Burlington",
+    "address": "120 Church Street Burlington, VT 05401",
+    "style": "American",
+    "cost": 4,
+    "reservations": true
+  },
+  {
+    "uuid": "f02e8606-32c3-41b0-8306-9e428170e67c",
+    "name": "Barkeaters",
+    "city": "Shelburne",
+    "address": "97 Falls Road Shelburne, VT 05482",
+    "style": "American",
+    "cost": 2
+  },
+  {
+    "uuid": "1c868efa-5cc3-4cb0-a175-e795c0a74d2f",
+    "name": "Als French Frys",
+    "city": "South Burlington",
+    "address": "1251 Williston Road South Burlington, VT 05403",
+    "style": "American",
+    "cost": 1,
+    "reviews": [
+      {
+        "text": "Best fries in Burlington",
+        "stars": 4,
+        "date": "22-May-2023"
+      }
+    ]
+  }
+]
